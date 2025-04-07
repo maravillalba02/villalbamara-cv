@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+h1 {
+    color: darkmagenta;
+    font-size: 30px;
+}
+
+.botones {
+    width: 1980px;
+    height: 60px;
+    background-color: darkseagreen;
+}
