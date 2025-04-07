@@ -11,3 +11,9 @@ h1 {
     height: 60px;
     background-color: darkseagreen;
 }
+
+#cabecera {
+   background-color: darkkhaki; 
+   width: 1980px;
+   height: 60px;
+}
