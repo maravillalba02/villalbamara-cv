@@ -6,22 +6,8 @@ h1 {
     font-size: 30px;
 }
 
-.botones {
-    width: 1980px;
-    height: 60px;
-    background-color: darkseagreen;
-}
-
 #cabecera {
     background-color: lightpink; 
    width: 1980px;
    height: 60px;
-}
-
-.caja {
-    width: 130px;
-    height: 30px;
-    background-color: palevioletred;
-    padding: 20px;
-    margin: 30px;
 }
