@@ -24,6 +24,7 @@ h3 {
 
 p {
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 15px;
 }
 #cabecera {
     background-color:darkslateblue; 
@@ -32,7 +33,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 li {
     display: flex;
     display: inline-block;
-    justify-content: space-between;
+    justify-content:flex-end;
     align-items: center;
     width: 95px;
     height: 15px;
@@ -68,6 +69,7 @@ border-radius: 10px;
 
 #trabajos {
     display: flex;
+    flex-direction: row-reverse;
     justify-content:space-evenly;
     padding: 55px;
 }
