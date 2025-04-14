@@ -15,8 +15,15 @@ h1 {
     width: 1980px;
     height: 60px;
 }
+#quiensoy {
+    background-color: darkolivegreen;
+    margin: 30px;
+    display: flex;
+}
 li {
+    display: flex;
     display: inline-block;
+    justify-content: space-around;
     width: 100px;
     height: 25px;
     background-color:plum;
@@ -26,5 +33,25 @@ li {
 }
 li:hover {
     color: white;
-    font-size: 2em;
+    font-size: 1em;
+}
+footer {
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content:space-between
+}
+main {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start
+}
+section {
+    padding: 30px;
+    margin: 15px;
+    background-color: darkolivegreen;
+    width: 450px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
 }
