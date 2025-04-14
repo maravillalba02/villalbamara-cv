@@ -12,20 +12,15 @@ h1 {
 
 #cabecera {
     background-color:darkslateblue; 
-    width: 1980px;
+    width: 1600px;
     height: 60px;
-}
-#quiensoy {
-    background-color: darkolivegreen;
-    margin: 30px;
-    display: flex;
 }
 li {
     display: flex;
     display: inline-block;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100px;
-    height: 25px;
+    height: 15px;
     background-color:plum;
     color: darkslateblue;
     margin: 30px;
@@ -41,17 +36,15 @@ footer {
     justify-content:space-between
 }
 main {
-    margin: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items:flex-start
+    margin: 45px;
 }
-section {
-    padding: 30px;
-    margin: 15px;
-    background-color: darkolivegreen;
-    width: 450px;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
+
+.sobremi {
+background-color:lightpink;
+width: 450px;
+height: 300px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding:15px;
 }
