@@ -6,6 +6,7 @@
     padding: 0px;
 }
 h1 {
+    color: darkmagenta;
     font-size: 30px;
     font-family:'Courier New', Courier, monospace
 }
@@ -28,9 +29,14 @@ p {
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+.descr {
+    color: white;
+    margin: 15px;
+}
+
 #cabecera {
     background-color:darkslateblue; 
-    height: 60px;
+    height: 65px;
 }
 li {
     display: flex;
@@ -51,8 +57,10 @@ li:hover {
 }
 footer {
     background-color: darkolivegreen;
+    height: 35px;
+    padding: 5px;
     display: flex;
-    justify-content:space-between
+    justify-content:space-between;
 }
 main {
     margin: 45px;
