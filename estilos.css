@@ -6,7 +6,6 @@
     padding: 0px;
 }
 h1 {
-    color: darkmagenta;
     font-size: 30px;
     font-family:'Courier New', Courier, monospace
 }
@@ -21,11 +20,14 @@ h3 {
        color: deeppink;
 }
 
+h3:hover {
+    color: darkgreen; 
+}
 
 p {
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-margin: 15px;
 }
+
 #cabecera {
     background-color:darkslateblue; 
     height: 60px;
@@ -61,6 +63,7 @@ background-color:lightpink;
 width: 450px;
 height: 300px;
 display: flex;
+float: right;
 justify-content: space-between;
 align-items: center;
 padding:15px;
@@ -71,5 +74,4 @@ border-radius: 10px;
     display: flex;
     flex-direction: row-reverse;
     justify-content:space-evenly;
-    padding: 55px;
 }
