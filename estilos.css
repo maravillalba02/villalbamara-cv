@@ -8,6 +8,7 @@
 h1 {
     color: darkmagenta;
     font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #cabecera {
@@ -19,7 +20,8 @@ li {
     display: flex;
     display: inline-block;
     justify-content: space-between;
-    width: 100px;
+    align-items: center;
+    width: 95px;
     height: 15px;
     background-color:plum;
     color: darkslateblue;
