@@ -21,9 +21,12 @@ h3 {
        color: deeppink;
 }
 
+
+p {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 #cabecera {
     background-color:darkslateblue; 
-    width: 1600px;
     height: 60px;
 }
 li {
@@ -35,8 +38,9 @@ li {
     height: 15px;
     background-color:plum;
     color: darkslateblue;
-    margin: 30px;
-    padding: 20px;
+    margin: 25px;
+    padding: 10px;
+    border-radius: 15px;
 }
 li:hover {
     color: white;
@@ -59,4 +63,11 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding:15px;
+border-radius: 10px;
+}
+
+#trabajos {
+    display: flex;
+    justify-content:space-evenly;
+    padding: 55px;
 }
