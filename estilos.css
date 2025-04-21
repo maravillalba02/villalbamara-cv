@@ -26,11 +26,13 @@ h1 {
 h2 {
     font-family: 'Playwrite';
     color:deeppink;
+    font-size: 2em;
 }
 
 h3 {
     font-family:'Montserrat';
-        color: deeppink;
+    color: deeppink;
+    line-height: 3;
 }
 
 h3:hover {
@@ -39,6 +41,12 @@ h3:hover {
 
 p {
 font-family: 'Montserrat';
+line-height: 1.5;
+}
+
+
+.portafolio:hover {
+    transform: scale(140%);
 }
 
 .descr {
@@ -47,33 +55,40 @@ font-family: 'Montserrat';
 }
 
 #cabecera {
-    background-color:darkslateblue; 
+    background-color:darkseagreen; 
     height: 65px;
 }
 
 li {
+    background-color: deeppink;
     display: flex;
-    display: inline-block;
-    justify-content:flex-end;
+    justify-content:space-around;
     align-items: center;
+    align-content: center;
     width: 95px;
     height: 15px;
-    background-color:plum;
-    color: darkslateblue;
-    margin: 25px;
-    padding: 10px;
+    color: white;
+    padding: 15px;
+    margin: 15px;
     border-radius: 15px;
 }
 
+
+ol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 li:hover {
-    color: white;
+    color: darkmagenta;
     font-size: 1em;
 }
 
 footer {
     background-color: darkseagreen;
     height: 35px;
-    padding: 5px;
+    padding: 15px;
     display: flex;
     justify-content:space-between;
 }
@@ -81,28 +96,33 @@ footer {
 .sobremi {
 background-color:lightpink;
 width: 450px;
-height: 300px;
+height: 260px;
 display: flex;
 justify-content: space-between;
 align-items: center;
 padding:15px;
+border-radius: 35px;
 }
 
 #trabajos {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    align-items: center;
     justify-content:space-evenly;
+    margin: 15px;
 }
 .experiencia {
-    background-color: darkseagreen;
-    padding: 15px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 .herramientas {
-    background-color: black;
+    background-color: darkseagreen;
     border-radius: 10px;
-    padding: 20px;
-    width: 150px;
-    height: 150px;
+    padding: 10px;
+    width: 130px;
+    height: 130px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -111,4 +131,25 @@ padding:15px;
     align-content: space-between;
     gap: 5px;
     column-gap: 5px;
+}
+
+.inicio {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+.contacto2 {
+    display: flex;
+    gap: 25px;
+    padding: 15px;
 }
