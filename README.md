@@ -1,5 +1,9 @@
 # Villalba Mara
-## pre-entrega currículum.
-Para este tp empecé escribiendo la información de mi cv en un archivo html5 utilizando Visual Studio Code y mientras veía los vídeos de las clases iba copiando las distintas acciones que realizaban los profes para comprender el funcionamiento. Todavía me faltan agregar algunos contenidos como trabajos destacados y cambiar la disposición de algunos elementos.
+## ENTREGA.
+Para este tp empecé escribiendo la información de mi cv en un archivo html5 utilizando Visual Studio Code y mientras veía los vídeos de las clases iba copiando las distintas acciones que realizaban los profes para comprender el funcionamiento. Después de la pre-entrega volví a mirar los videos de flexbox para poder cambiar la disposición de los elementos en la página. 
+### *RESOLUCIÓN*
+![Captura de pantalla 2025-04-21 132809](https://github.com/user-attachments/assets/954632a3-d75e-4f77-9237-5ac4711aa9be)
 ### *Así se ve el tp en mi pantalla:*
-![image](https://github.com/user-attachments/assets/f046af7c-c69d-43d3-817b-1111b2a1fad8)
+![Captura de pantalla 2025-04-21 132721](https://github.com/user-attachments/assets/2ddbe381-530a-45e4-bfa9-c8b495e0b41c)
+![Captura de pantalla 2025-04-21 132744](https://github.com/user-attachments/assets/5c0386f7-edcf-4770-9e4b-c72c7cefaafa)
+
