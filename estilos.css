@@ -21,6 +21,7 @@ h1 {
     color: darkmagenta;
     font-size: 30px;
     font-family:'Playwrite';
+    padding: 15px;
 }
 
 h2 {
@@ -94,7 +95,7 @@ footer {
 }
 
 .sobremi {
-background-color:lightpink;
+background-color: lightpink;
 width: 450px;
 height: 260px;
 display: flex;
