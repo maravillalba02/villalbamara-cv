@@ -1,21 +1,35 @@
 @charset "utf-8";
 /* CSS Document */
 
+@font-face {
+    font-family: 'Playwrite';
+    src: url(fonts/PlaywriteAUSA-VariableFont_wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(fonts/Montserrat-VariableFont_wght.ttf) format('truetype');
+    font-weight: normal;
+    font-style:normal;
+}
+
 *{
     margin: 0px;
 }
 h1 {
     color: darkmagenta;
     font-size: 30px;
-    font-family:'Courier New', Courier, monospace
+    font-family:'Playwrite';
 }
 
 h2 {
-    color: darkmagenta;
+    font-family: 'Playwrite';
+    color:deeppink;
 }
 
 h3 {
-        font-family: "Playwrite";
+    font-family:'Montserrat';
         color: deeppink;
 }
 
@@ -24,7 +38,7 @@ h3:hover {
 }
 
 p {
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-family: 'Montserrat';
 }
 
 .descr {
@@ -57,14 +71,11 @@ li:hover {
 }
 
 footer {
-    background-color: darkolivegreen;
+    background-color: darkseagreen;
     height: 35px;
     padding: 5px;
     display: flex;
     justify-content:space-between;
-}
-main {
-    margin: 45px;
 }
 
 .sobremi {
@@ -75,7 +86,6 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 padding:15px;
-border-radius: 10px;
 }
 
 #trabajos {
@@ -84,5 +94,21 @@ border-radius: 10px;
     justify-content:space-evenly;
 }
 .experiencia {
-    background-color: darkmagenta;
+    background-color: darkseagreen;
+    padding: 15px;
+}
+.herramientas {
+    background-color: black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: center;
+    align-content: space-between;
+    gap: 5px;
+    column-gap: 5px;
 }
