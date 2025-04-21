@@ -3,7 +3,6 @@
 
 *{
     margin: 0px;
-    padding: 0px;
 }
 h1 {
     color: darkmagenta;
@@ -22,7 +21,7 @@ h3 {
 }
 
 h3:hover {
-    color: darkgreen; 
+    color:darkseagreen; 
 }
 
 p {
@@ -38,6 +37,7 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     background-color:darkslateblue; 
     height: 65px;
 }
+
 li {
     display: flex;
     display: inline-block;
@@ -51,10 +51,12 @@ li {
     padding: 10px;
     border-radius: 15px;
 }
+
 li:hover {
     color: white;
     font-size: 1em;
 }
+
 footer {
     background-color: darkolivegreen;
     height: 35px;
@@ -71,7 +73,6 @@ background-color:lightpink;
 width: 450px;
 height: 300px;
 display: flex;
-float: right;
 justify-content: space-between;
 align-items: center;
 padding:15px;
@@ -82,4 +83,7 @@ border-radius: 10px;
     display: flex;
     flex-direction: row-reverse;
     justify-content:space-evenly;
+}
+.experiencia {
+    background-color: darkmagenta;
 }
