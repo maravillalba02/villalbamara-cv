@@ -4,6 +4,4 @@ Para este tp empecé escribiendo la información de mi cv en un archivo html5 ut
 ### *RESOLUCIÓN*
 ![Captura de pantalla 2025-04-21 132809](https://github.com/user-attachments/assets/954632a3-d75e-4f77-9237-5ac4711aa9be)
 ### *Así se ve el tp en mi pantalla:*
-![Captura de pantalla 2025-04-21 132721](https://github.com/user-attachments/assets/2ddbe381-530a-45e4-bfa9-c8b495e0b41c)
-![Captura de pantalla 2025-04-21 132744](https://github.com/user-attachments/assets/5c0386f7-edcf-4770-9e4b-c72c7cefaafa)
 
