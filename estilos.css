@@ -56,22 +56,25 @@ line-height: 1.5;
 }
 
 #cabecera {
-    background-color:darkseagreen; 
-    height: 65px;
+    background-color:#CEE2E0; 
+    height: 128px;
+}
+
+ul {
+    gap: 65px;
 }
 
 li {
-    background-color: deeppink;
+    font-family: 'Montserrat';
+    border: 3px solid #3C016B;
+    border-radius: 50px;
     display: flex;
-    justify-content:space-around;
+    justify-content:center;
     align-items: center;
-    align-content: center;
     width: 95px;
     height: 15px;
     color: white;
     padding: 15px;
-    margin: 15px;
-    border-radius: 15px;
 }
 
 
