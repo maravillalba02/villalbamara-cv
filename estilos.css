@@ -9,135 +9,139 @@
 }
 @font-face {
     font-family: 'Montserrat';
-    src: url(fonts/Montserrat-VariableFont_wght.ttf) format('truetype');
+    src: url(fonts/Montserrat-Regular.ttf) format('truetype');
     font-weight: normal;
     font-style:normal;
+}
+@font-face {
+    font-family: 'Montserrat Bold';
+    src: url(fonts/Montserrat-Bold.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Montserrat BoldItalic';
+    src: url(fonts/Montserrat-BoldItalic.ttf) format('truetype');
+    font-weight: normal;
 }
 
 *{
     margin: 0px;
 }
+p {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: black;
+    line-height: 1.5;
+    padding-left: 125px;
+}
+
 h1 {
-    color: darkmagenta;
-    font-size: 30px;
-    font-family:'Playwrite';
+    color: white;
+    font-size: 128px;
+    font-family:'Montserrat Bold';
     padding: 15px;
 }
 
 h2 {
-    font-family: 'Playwrite';
-    color:deeppink;
-    font-size: 2em;
+    font-family: 'Montserrat';
+    color: white;
+    font-size: 128px;
 }
 
 h3 {
-    font-family:'Montserrat';
-    color: deeppink;
-    line-height: 3;
+    font-family:'Playwrite';
+    color: #3C016B;
+    font-size: 96px;
+    padding-left: 125px;
 }
+
+h4 {
+    font-family: 'Montserrat Bold';
+    font-size: 36px;
+    color: #3C016B;
+    padding-left: 125px;
+}
+
+h5{
+    font-family: 'Montserrat BoldItalic';
+    font-size: 96px;
+    color: #EBC6FF;
+}
+
+h6{
+    font-family: 'Montserrat';
+    font-size: 36px;
+    color: #3C016B;
+    padding-left: 125px;
+}
+
 
 h3:hover {
     color:darkseagreen; 
 }
 
-p {
-font-family: 'Montserrat';
-line-height: 1.5;
-}
-
-
-.portafolio:hover {
-    transform: scale(140%);
-}
-
-.descr {
-    color: white;
-    margin: 15px;
-}
 
 #cabecera {
     background-color:#CEE2E0; 
-    height: 128px;
+    height: 95px;
+}
+
+.botones {
+    display: flex;
+    align-items: center;
+    gap: 780px;
 }
 
 ul {
     gap: 65px;
 }
 
+.logoheader {
+    gap: 780px;
+    padding: 15px;
+}
+
 li {
     font-family: 'Montserrat';
-    border: 3px solid #3C016B;
-    border-radius: 50px;
     display: flex;
     justify-content:center;
     align-items: center;
     width: 95px;
     height: 15px;
-    color: white;
+    color:#3C016B;
     padding: 15px;
 }
-
 
 ol {
     display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 li:hover {
+    font-family: 'Montserrat Bold';
     color: darkmagenta;
-    font-size: 1em;
+    text-decoration: underline;
 }
 
 footer {
-    background-color: darkseagreen;
-    height: 35px;
+    background-color:#CEE2E0;
+    height: 150px;
     padding: 15px;
     display: flex;
+    align-items: center;
     justify-content:space-between;
 }
 
 .sobremi {
-background-color: lightpink;
-width: 450px;
-height: 260px;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding:15px;
-border-radius: 35px;
-}
-
-#trabajos {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content:space-evenly;
-    margin: 15px;
-}
-.experiencia {
-    padding: 20px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-.herramientas {
-    background-color: darkseagreen;
-    border-radius: 10px;
-    padding: 10px;
-    width: 130px;
-    height: 130px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    justify-content:space-between;
-    align-items: center;
-    align-content: space-between;
-    gap: 5px;
-    column-gap: 5px;
+    align-items: flex-start;
 }
 
+
 .inicio {
+    background-color: #3C016B;
+    height: 502px;
     display: flex;
     gap: 30px;
     align-items: center;
@@ -156,4 +160,57 @@ border-radius: 35px;
     display: flex;
     gap: 25px;
     padding: 15px;
+}
+
+.estudios {
+    background-color:#EBC6FF;
+    width: 989px;
+    height: 620px;
+    gap: 54px;
+    position: relative;
+    top: 100px;
+}
+
+.experiencia {
+    background-color:#CEE2E0;
+    width: 931px;
+    height: 720px;
+    gap: 54px;
+    position: relative;
+    left: 989px;
+    bottom: 520px;
+}
+
+.cancion {
+    background-color: #699E98;
+    display: flex;
+    width: 1063px;
+    height: 507px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    left: 857px;
+    bottom: 1128px;
+}
+
+.habilidades{
+    background-color: #CEE2E0;
+    width: 857px;
+    height: 507px;
+    gap: 30px;
+    position: relative;
+    bottom: 620px;
+}
+.herramientas {
+    display: flex;
+    padding: 95px;
+    align-items: flex-end;
+    gap: 45px;
+}
+
+.contenedores {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
