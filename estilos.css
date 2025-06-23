@@ -119,23 +119,67 @@ ol {
 
 li:hover {
     font-family: 'Montserrat Bold';
-    color: darkmagenta;
+    color:#3C016B;
+    text-decoration: underline;
+    
+}
+
+a {
+    text-decoration: none;
+}
+a:active{
+    font-family: 'Montserrat Bold';
+    color:#3C016B;
     text-decoration: underline;
 }
 
 footer {
-    background-color:#CEE2E0;
-    height: 150px;
-    padding: 15px;
+    background-color:#3C016B;
+    width: 100%;
+    height: 266px;
     display: flex;
     align-items: center;
     justify-content:space-between;
+    color: white;
+}
+
+.footertext {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerlinks {
+    display: flex;
+    gap: 10px;
+}
+
+.descr {
+    color: white;
+}
+
+#textcont {
+    font-family: 'Playwrite';
+    font-size: 40px;
+    padding: 0px;
+    margin-right: 20px;
+}
+
+#derechos {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    padding: 0px;
+    margin-right: 20px;
+}
+
+#footerlogo {
+    margin:20px;
 }
 
 .sobremi {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    margin-bottom: 65px;
 }
 
 
@@ -149,31 +193,18 @@ footer {
 }
 
 
-.contacto {
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    align-items: center;
-}
-
-.contacto2 {
-    display: flex;
-    gap: 25px;
-    padding: 15px;
-}
-
 .estudios {
     background-color:#EBC6FF;
     width: 100%;
     height: 820px;
-    gap: 54px;
+    gap: 35px;
 }
 
 .experiencia {
     background-color:#CEE2E0;
     width: 100%;
     height:820px;
-    gap: 54px;
+    gap: 35px;
 }
 
 .cancion {
@@ -189,14 +220,13 @@ footer {
 .habilidades{
     background-color: #CEE2E0;
     width: 100%;
-    height: auto;
+    height: 336px;
     gap: 30px;
 }
 .herramientas {
     display: flex;
-    align-items: flex-end;
     gap: 25px;
-    height: max-content;
+    padding-left: 110px;
 }
 
 .contenedores {
@@ -205,4 +235,110 @@ footer {
     align-items: flex-start;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+}
+
+.conttext {
+    width: 55%;
+}
+
+/*contacto*/
+
+input {
+    background-color: #CEE2E0;
+    width: 100%;
+    height: 25px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+form {
+    width: 45%;
+    height: auto;
+    border: 2px solid #EBC6FF;
+    display: flex;
+    flex-direction: column;
+    margin: 110px;
+    margin-top: 45px;
+}
+
+form div {
+    width: 80%;
+    height: auto;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type=checkbox] {
+    width: auto;
+    height: auto;
+}
+
+label{
+    display: block;
+    height: 25px;
+}
+
+.boton {
+    height: 30px;
+    width: 20%;
+    background-color: #3C016B;
+    color: white;
+    padding: 5px;
+    border-radius: 20px;
+    font-style: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.formulario {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#servform{
+    padding: 0px;
+}
+
+textarea{
+    border: 2px solid #EBC6FF;
+    width: 100%;
+    height: 120px;
+}
+
+.formtexto {
+    width: 65%;
+}
+
+
+#enviar{
+    display: flex;
+    align-items: center;
+}
+
+.boton:active{
+    background-color: #EBC6FF;
+    color: black;
+}
+
+/*galeria*/
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 20px;
+    gap: 10px;
+}
+
+.imgs{
+    width: 100%;
+    height: auto;
 }

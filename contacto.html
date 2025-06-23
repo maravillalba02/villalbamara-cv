@@ -20,10 +20,47 @@
         </nav>
     </header>
         <main>
-            <footer>
-                <p>Currículum Vitae</p>
-                <img src="img/favicon.svg" height="70px" width="70px" alt="logo">
-                <p class="descr">Computación 3</p>
-            </footer>
+            <h3>/// contáctame</h3>
+            <p class="formtexto">Si te interesa realizar algún proyecto conmigo, te invito a llenar el siguiente formulario para ponernos en contacto</p>
+            <p>Los campos indicados con * son obligatorios.</p>
+            <section class="formulario">
+                <form>
+                    <form method="post" action="mailto:myv.villalba@gmail.com?subject='Enviado desde el formulario'" target="_blank" enctype="text/plain">
+                        <div>
+                            <input type="text" name="Nombre" id="Nombre" maxlength="45" placeholder="* Nombre completo" required>
+                            <input type="email" name="Email" id="Email" required placeholder="* Mail de contacto">
+                            <input type="tel" name="Teléfono" id="Teléfono" placeholder="(000)0000000000" required>
+                        </div>
+                        <div>
+                            <p id="servform">Servicio</p>
+                            <label for="Servicio">Stickers<input type="checkbox" name="Servicio" value="Stickers" id="Stickers"></label>
+                            <label for="Servicio">Branding<input type="checkbox" name="Servicio" value="Branding" id="Branding"></label>
+                            <label for="Servicio">Papelería<input type="checkbox" name="Servicio" value="Papelería" id="Papelería"></label>
+                            <label for="Servicio">CandyBar<input type="checkbox" name="Servicio" value="CandyBar" id="CandyBar"></label>
+                            <label for="Servicio">Ilustraciones<input type="checkbox" name="Servicio" value="Ilustraciones" id="Ilustraciones"></label>
+                            <label for="Servicio">Otros<input type="checkbox" name="Servicio" value="Otros" id="Otros"></label>
+                            <textarea name="Aclaraciones" id="Aclaraciones" placeholder="Detalles sobre el diseño o servicio requerido..."></textarea>
+                        </div>
+                        <div id="enviar">
+                        <input type="submit" value="Enviar" formenctype="text/plain" class="boton">
+                        </div>
+                    </form>
+                </section>
+    <footer>
+        <img id="footerlogo" src="img/favicon.svg" height="132px" width="132px" alt="logo">
+        <div>
+            <div class="footertext">
+            <p class="descr" id="textcont">Contáctame!</p>
+            <p class="descr" id="derechos">© Todos los derechos reservados.</p>
+            <p class="descr" id="derechos">Computación 3.</p>
+            </div>
+            <div class="footerlinks">
+                <a href="https://www.behance.net/217b51b1"><img src="img/contacto-behance.svg" width="67px" height="67px" alt="link a behance"></a>
+                <a href="https://www.linkedin.com/in/mara-villalba-604bb1257/"><img src="img/contacto-linkedin.svg" width="67px" height="67px" alt="link a LinkedIn"></a>
+                <a href="mailto:myv.villalba@gmail.com"><img src="img/contacto-mail.svg" width="67px" height="67px" alt="mail"></a>
+            </div>
+        </div>
+    </footer>
+
         </main>
     </body>
