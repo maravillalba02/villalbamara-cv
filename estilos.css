@@ -100,6 +100,9 @@ ul {
 .logoheader {
     padding: 15px;
 }
+.logoheader:hover{
+    transform: scale(1.1) rotate(10deg);
+}
 
 li {
     font-family: 'Montserrat';
@@ -173,7 +176,17 @@ footer {
 #footerlogo {
     margin:20px;
 }
-
+#footerlogo:hover {
+    transform: scale(1.1) rotate(10deg);
+}
+.logoindex {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.logoindex:hover {
+    transform: scale(1.1) rotate(10deg);
+}
 .sobremi {
     display: flex;
     flex-direction: column;
@@ -351,7 +364,9 @@ textarea{
     padding: 15px;
 }
 
-@media screen and (max-width: 600px) {
+
+
+@media screen and (min-width:600px) and (max-width:1200px) {
     .galeria{
         display: flex;
         flex-direction: column;
