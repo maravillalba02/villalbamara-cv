@@ -133,6 +133,11 @@ a:active{
     text-decoration: underline;
 }
 
+header{
+    width: 100%;
+    position: fixed;
+}
+
 footer {
     background-color:#3C016B;
     width: 100%;
@@ -341,4 +346,13 @@ textarea{
 .imgs{
     width: 100%;
     height: auto;
+}
+
+.disgaleria{
+    margin: 30px;
+    display: flex;
+}
+
+.textgal{
+    padding: 15px;
 }
