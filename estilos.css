@@ -33,7 +33,7 @@ p {
     font-size: 24px;
     color: black;
     line-height: 1.5;
-    padding-left: 125px;
+    padding-left: 110px;
 }
 
 h1 {
@@ -53,19 +53,19 @@ h3 {
     font-family:'Playwrite';
     color: #3C016B;
     font-size: 96px;
-    padding-left: 125px;
+    padding-left: 110px;
 }
 
 h4 {
     font-family: 'Montserrat Bold';
     font-size: 36px;
     color: #3C016B;
-    padding-left: 125px;
+    padding-left: 110px;
 }
 
 h5{
     font-family: 'Montserrat BoldItalic';
-    font-size: 96px;
+    font-size: 69px;
     color: #EBC6FF;
 }
 
@@ -73,12 +73,12 @@ h6{
     font-family: 'Montserrat';
     font-size: 36px;
     color: #3C016B;
-    padding-left: 125px;
+    padding-left: 110px;
 }
 
 
 h3:hover {
-    color:darkseagreen; 
+    color:#EBC6FF; 
 }
 
 
@@ -164,53 +164,45 @@ footer {
 
 .estudios {
     background-color:#EBC6FF;
-    width: 989px;
-    height: 620px;
+    width: 100%;
+    height: 820px;
     gap: 54px;
-    position: relative;
-    top: 100px;
 }
 
 .experiencia {
     background-color:#CEE2E0;
-    width: 931px;
-    height: 720px;
+    width: 100%;
+    height:820px;
     gap: 54px;
-    position: relative;
-    left: 989px;
-    bottom: 520px;
 }
 
 .cancion {
     background-color: #699E98;
     display: flex;
-    width: 1063px;
-    height: 507px;
+    width: 100%;
+    height: fit-content;
     justify-content: center;
     align-items: center;
     gap: 10px;
-    position: relative;
-    left: 857px;
-    bottom: 1128px;
 }
 
 .habilidades{
     background-color: #CEE2E0;
-    width: 857px;
-    height: 507px;
+    width: 100%;
+    height: auto;
     gap: 30px;
-    position: relative;
-    bottom: 620px;
 }
 .herramientas {
     display: flex;
-    padding: 95px;
     align-items: flex-end;
-    gap: 45px;
+    gap: 25px;
+    height: max-content;
 }
 
 .contenedores {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
